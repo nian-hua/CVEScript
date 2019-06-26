@@ -91,4 +91,6 @@ def main():
 
             break
 
-main()
+if "__main__" == __name__:
+
+    main()
