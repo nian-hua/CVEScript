@@ -24,11 +24,11 @@ def send_payload(url):
 
         if "wangming" in r.text:
 
-            return 0
+            return url
 
         else:
 
-            return url
+            return 0
 
     except:
 
